@@ -1,50 +1,51 @@
 window.SITE_CONTENT = {
-  title: "Cartas para ti",
-  subtitle: "Hay recuerdos que merecen guardarse en palabras.",
+  title: "Emily",
+  subtitle: "Cartas para ti...",
   instruction: "Toca un sobre para abrirlo.",
   letters: [
     {
       number: "01",
-      title: "Donde comenzó todo",
-      detail: "Para recordar el principio",
-      date: "Nuestro primer capítulo",
-      greeting: "Amor:",
+      title: "Julio",
+      detail: "20/07/2026",
+      date: "20/07/2026",
+      greeting: "",
       paragraphs: [
-        "Esta carta es un espacio para recordar uno de esos momentos que cambian silenciosamente la vida. A veces el principio no llega con anuncios: aparece en una conversación, una tarde compartida o una mirada que se queda un poco más de lo esperado.",
-        "Aquí irá la historia completa de cómo comenzó todo: los detalles que todavía hacen sonreír, las primeras costumbres que se volvieron nuestras y esas pequeñas escenas que ahora forman parte de algo mucho más grande.",
-        "Este texto es provisional y está listo para ser reemplazado por tus propias palabras cuando quieras contar esta historia tal como la recuerdas."
+        "Soy muy malo para esto y esto me parece una terrible idea, así que primero que nada lo siento por no poder escribir una carta convencional, pero eso no quita que quiera escribirte. Estos meses, no solo este primer mes, sino desde que empezamos a salir más y hablar más, han sido grandiosos, en verdad.",
+        "Amo tu sonrisa, tus chistes, tu cabello, tus ojos, tu ser; amo cómo jugamos, cómo platicamos, cómo reímos y cómo soy cuando estoy contigo. Me haces una mejor persona, me dan ganas de serlo cuando estoy contigo; también amo poder hablar de cualquier tema contigo.",
+        "Quiero que sepas que te adoro y que espero vivir muchas más cosas contigo.",
+        "Yo sé que dijiste que no lo dijera si no lo siento. Pero en estos momentos te lo quiero decir."
       ],
-      signature: "Con todo mi cariño,\n[Tu nombre]",
+      signature: "Te amo\nAtt: Armando\n\nPosdata: Te dejo unas fotitos de este mes",
       memories: [
-        { src: "assets/memories/letter-1-01.webp", alt: "Selfie de una pareja recostada y sonriendo a la cámara.", caption: "Uno de nuestros primeros retratos juntos." },
-        { src: "assets/memories/letter-1-02.webp", alt: "Pareja tomándose una fotografía frente a un espejo.", caption: "Una foto espontánea, de esas que se vuelven favoritas." },
-        { src: "assets/memories/letter-1-03.webp", alt: "Pareja sentada junta en una habitación durante la noche.", caption: "Los comienzos también viven en los días tranquilos." },
-        { src: "assets/memories/letter-1-04.webp", alt: "Selfie de una pareja recostada y sonriendo a la cámara.", caption: "Cerca, sin necesitar demasiado." },
-        { src: "assets/memories/letter-1-05.webp", alt: "Dos copas brindando en una habitación con poca luz.", caption: "Un brindis por lo que estaba empezando." },
-        { src: "assets/memories/letter-1-06.webp", alt: "Pizza casera antes de entrar al horno.", caption: "Las recetas que también cuentan nuestra historia." },
-        { src: "assets/memories/letter-1-07.webp", alt: "Dos copas con bebida rosada durante un brindis.", caption: "Pequeñas celebraciones, grandes recuerdos." },
-        { src: "assets/memories/letter-1-08.webp", alt: "Partido de futbol proyectado durante una noche en casa.", caption: "Una noche cualquiera que terminó siendo especial." },
-        { src: "assets/memories/letter-1-09.webp", alt: "Juego de mesa Turista Mundial preparado sobre una mesa.", caption: "Horas compartidas alrededor de una mesa." },
-        { src: "assets/memories/letter-1-10.webp", alt: "Manos preparando una pizza casera.", caption: "Construir juntos, incluso lo cotidiano." }
+        { src: "assets/memories/letter-1-01.webp", alt: "Selfie de una pareja recostada y sonriendo a la cámara." },
+        { src: "assets/memories/letter-1-02.webp", alt: "Pareja tomándose una fotografía frente a un espejo." },
+        { src: "assets/memories/letter-1-03.webp", alt: "Pareja sentada junta en una habitación durante la noche." },
+        { src: "assets/memories/letter-1-04.webp", alt: "Selfie de una pareja recostada y sonriendo a la cámara." },
+        { src: "assets/memories/letter-1-05.webp", alt: "Dos copas brindando en una habitación con poca luz." },
+        { src: "assets/memories/letter-1-06.webp", alt: "Pizza casera antes de entrar al horno." },
+        { src: "assets/memories/letter-1-07.webp", alt: "Dos copas con bebida rosada durante un brindis." },
+        { src: "assets/memories/letter-1-08.webp", alt: "Partido de futbol proyectado durante una noche en casa." },
+        { src: "assets/memories/letter-1-09.webp", alt: "Juego de mesa Turista Mundial preparado sobre una mesa." },
+        { src: "assets/memories/letter-1-10.webp", alt: "Manos preparando una pizza casera." }
       ]
     },
     {
       number: "02",
-      title: "Los días contigo",
-      detail: "Para guardar lo cotidiano",
-      date: "Todo lo que se volvió nuestro",
-      greeting: "Amor:",
+      title: "Agosto",
+      detail: "20/08/2026",
+      date: "20/08/2026",
+      greeting: "",
       paragraphs: [
-        "Hay días que parecen pequeños mientras ocurren, pero con el tiempo descubrimos que eran exactamente la vida que queríamos recordar. Esta carta guarda un poco de esa alegría: las salidas improvisadas, las risas, los gustos que compartimos y los lugares que terminan significando algo porque estuvimos ahí juntos.",
-        "Aquí irá una carta sobre lo cotidiano, sobre esa forma de acompañarnos que convierte cualquier plan sencillo en una historia propia. También sobre las rarezas, los nervios y las aventuras que solo tienen sentido cuando se viven de a dos.",
-        "Este texto es provisional. Puedes reemplazarlo fácilmente en content.js con las palabras definitivas y conservar intacto todo el diseño."
+        "Cosas han estado pasando. Estos últimos días no nos hemos estado viendo mucho tampoco; yo sé cómo me pongo cuando eso sucede, pero sé que no es por eso. Algo cambió en todo esto y sinceramente no sé qué hacer al respecto.",
+        "Pero, pero, pero, quiero que sepas que yo te adoro y lo sigo haciendo. Las veces que nos hemos visto han sido extraordinarias, siempre lo son; siempre me haces sentir tan libre y tan cómodo. Feliz, vaya, sensación extraña, no por ser feliz, sino por esa mezcla de sentimientos. Yo sé que no estoy siendo nada claro, pero sé que en un futuro podremos reírnos de esta carta en específico, jajaja. Ya te lo explicaré.",
+        "Muy aparte, me encantó ir a la feria contigo. Esa feria en específico es un punto débil, pues ya tú sabes, iba con mi papá y eso, pero compartirla contigo se siente tan natural, cómodo y divertido. Qué miedo conocer a tus padres, pero qué cool. Aprecio mucho que me dejaras conocerlos; tus hermanitas son adorables, tu familia en general. Me caen muy bien."
       ],
-      signature: "Siempre contigo,\n[Tu nombre]",
+      signature: "Con amor\nAtt: Armando\n\nPosdata: Más fotitoss, aunque menos que el pasado.",
       memories: [
-        { src: "assets/memories/letter-2-01.webp", alt: "Mujer sonriendo mientras sube a un juego mecánico nocturno.", caption: "Una sonrisa en medio de las luces." },
-        { src: "assets/memories/letter-2-02.webp", alt: "Pareja en un juego mecánico iluminado con luces de colores.", caption: "La aventura se disfruta más juntos." },
-        { src: "assets/memories/letter-2-03.webp", alt: "Colección colorida de stickers de personajes y animales.", caption: "Encontrar cosas que nos hacen pensar el uno en el otro." },
-        { src: "assets/memories/letter-2-04.webp", alt: "Ilustración de un caballero fantástico exhibida en un puesto de arte.", caption: "Un detalle descubierto durante el paseo." }
+        { src: "assets/memories/letter-2-01.webp", alt: "Mujer sonriendo mientras sube a un juego mecánico nocturno." },
+        { src: "assets/memories/letter-2-02.webp", alt: "Pareja en un juego mecánico iluminado con luces de colores." },
+        { src: "assets/memories/letter-2-03.webp", alt: "Colección colorida de stickers de personajes y animales." },
+        { src: "assets/memories/letter-2-04.webp", alt: "Ilustración de un caballero fantástico exhibida en un puesto de arte." }
       ]
     },
     {
@@ -60,16 +61,16 @@ window.SITE_CONTENT = {
       ],
       signature: "Por todo lo que falta vivir,\n[Tu nombre]",
       memories: [
-        { src: "assets/memories/letter-3-01.webp", alt: "Mujer sonriendo en un mariposario rodeado de vegetación.", caption: "Un día rodeados de verde y luz." },
-        { src: "assets/memories/letter-3-02.webp", alt: "Dibujo anatómico de un cráneo de animal en una exposición.", caption: "Curiosidades encontradas en el camino." },
-        { src: "assets/memories/letter-3-03.webp", alt: "Tortuga grande entre hojas junto al agua.", caption: "Avanzar sin prisa también cuenta." },
-        { src: "assets/memories/letter-3-04.webp", alt: "Pareja sonriendo mientras sostiene una serpiente grande.", caption: "Un recuerdo valiente y muy nuestro." },
-        { src: "assets/memories/letter-3-05.webp", alt: "Primer plano de una serpiente sobre los hombros de una pareja.", caption: "Mirar de cerca lo inesperado." },
-        { src: "assets/memories/letter-3-06.webp", alt: "Serpiente en primer plano con una mujer sonriendo detrás.", caption: "La risa que aparece en plena aventura." },
-        { src: "assets/memories/letter-3-07.webp", alt: "Mujer posando junto a una pequeña cascada rodeada de árboles.", caption: "Naturaleza, agua y una tarde para guardar." },
-        { src: "assets/memories/letter-3-08.webp", alt: "Mujer junto a una cascada mirando hacia abajo.", caption: "Un instante tranquilo entre tantos planes." },
-        { src: "assets/memories/letter-3-09.webp", alt: "Pequeño tren decorativo bajo árboles frondosos.", caption: "Siempre queda otro camino por recorrer." },
-        { src: "assets/memories/letter-3-10.webp", alt: "Selfie de una pareja durante una visita a un parque.", caption: "Nosotros, y todo lo que todavía viene." }
+        { src: "assets/memories/letter-3-01.webp", alt: "Mujer sonriendo en un mariposario rodeado de vegetación." },
+        { src: "assets/memories/letter-3-02.webp", alt: "Dibujo anatómico de un cráneo de animal en una exposición." },
+        { src: "assets/memories/letter-3-03.webp", alt: "Tortuga grande entre hojas junto al agua." },
+        { src: "assets/memories/letter-3-04.webp", alt: "Pareja sonriendo mientras sostiene una serpiente grande." },
+        { src: "assets/memories/letter-3-05.webp", alt: "Primer plano de una serpiente sobre los hombros de una pareja." },
+        { src: "assets/memories/letter-3-06.webp", alt: "Serpiente en primer plano con una mujer sonriendo detrás." },
+        { src: "assets/memories/letter-3-07.webp", alt: "Mujer posando junto a una pequeña cascada rodeada de árboles." },
+        { src: "assets/memories/letter-3-08.webp", alt: "Mujer junto a una cascada mirando hacia abajo." },
+        { src: "assets/memories/letter-3-09.webp", alt: "Pequeño tren decorativo bajo árboles frondosos." },
+        { src: "assets/memories/letter-3-10.webp", alt: "Selfie de una pareja durante una visita a un parque." }
       ]
     }
   ]

@@ -10,7 +10,6 @@
   const galleryView = document.querySelector("#gallery-view");
   const galleryStage = document.querySelector("#gallery-stage");
   const galleryImage = document.querySelector("#gallery-image");
-  const galleryCaption = document.querySelector("#gallery-caption");
   const galleryCounter = document.querySelector("#gallery-counter");
   const galleryDots = document.querySelector("#gallery-dots");
   const showGalleryButton = document.querySelector("#show-gallery");
@@ -62,7 +61,9 @@
     document.querySelector("#dialog-kicker").textContent = `Carta ${letter.number}`;
     document.querySelector("#dialog-date").textContent = letter.date;
     document.querySelector("#dialog-title").textContent = letter.title;
-    document.querySelector("#dialog-greeting").textContent = letter.greeting;
+    const greeting = document.querySelector("#dialog-greeting");
+    greeting.textContent = letter.greeting;
+    greeting.hidden = !letter.greeting;
     document.querySelector("#dialog-body").replaceChildren(
       ...letter.paragraphs.map((paragraph) => {
         const element = document.createElement("p");
@@ -85,14 +86,20 @@
     page.inert = true;
     document.body.classList.add("modal-open");
     openingStage.hidden = false;
+    openingStage.classList.remove("is-leaving");
     letterView.classList.remove("is-visible");
 
     window.setTimeout(() => {
-      openingStage.hidden = true;
+      openingStage.classList.add("is-leaving");
       letterView.classList.add("is-visible");
       letterView.focus({ preventScroll: true });
+    }, prefersReducedMotion ? 0 : 960);
+
+    window.setTimeout(() => {
+      openingStage.hidden = true;
+      openingStage.classList.remove("is-leaving");
       card.classList.remove("is-opening");
-    }, prefersReducedMotion ? 0 : 780);
+    }, prefersReducedMotion ? 0 : 1360);
   };
 
   const closeDialog = () => dialog.close();
@@ -101,6 +108,7 @@
     page.inert = false;
     document.body.classList.remove("modal-open");
     openingStage.hidden = true;
+    openingStage.classList.remove("is-leaving");
     activeLetter = null;
     if (triggerButton) triggerButton.focus({ preventScroll: true });
   });
@@ -152,7 +160,6 @@
     galleryStage.classList.add("is-changing");
     galleryImage.src = memory.src;
     galleryImage.alt = memory.alt;
-    galleryCaption.textContent = memory.caption;
     galleryCounter.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(memories.length).padStart(2, "0")}`;
     previousButton.disabled = activeIndex === 0;
     nextButton.disabled = activeIndex === memories.length - 1;

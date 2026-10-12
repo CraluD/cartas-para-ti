@@ -50,16 +50,21 @@ window.SITE_CONTENT = {
     },
     {
       number: "03",
-      title: "Todo lo que viene",
-      detail: "Para mirar hacia adelante",
-      date: "El siguiente capítulo",
-      greeting: "Amor:",
+      title: "Septiembre",
+      detail: "20/09/2026",
+      date: "20/09/2026",
+      greeting: "",
       paragraphs: [
-        "Pensar en el futuro contigo no significa saber exactamente qué viene. Significa querer descubrirlo a tu lado: más lugares, más fotografías imperfectas, más historias que todavía no tienen nombre.",
-        "Esta carta será para escribir los planes, los deseos y las promesas que no necesitan ser enormes para ser importantes. Para recordar que el futuro también se construye con paciencia, curiosidad y la decisión cotidiana de seguir caminando juntos.",
-        "El texto es provisional y espera tus palabras. Las fotografías ya están aquí para recordar que siempre quedan nuevos caminos por explorar."
+        "Estas últimas salidas fueron tan maravillosas como siempre; estar contigo sigue siendo tan fácil, pero ya no de la misma forma.",
+        "Lo siento.",
+        "Sé que no quieres que me disculpe; sé que no puedo remediar lo que hice y dije, tampoco lo que no hice y no dije. Al parecer, el feeling del que hablaba en la carta anterior sí terminó pasando.",
+        "Ahora estas cartas parecen una peor idea. Te juro que en un principio dije: «woas, una así llena de todos los meses», aunque, ahora que lo pienso, ¿cómo se llamarían las de los otros meses? Quisiera poder cambiar muchas cosas; mis pensamientos siguen muy dispersos.",
+        "Quisiera poder decirte que te amo tanto como tú lo sientes por mí, corresponderte de la forma en la que lo haces, porque tu forma de amar es, sinceramente, asombrosa, con todo lo que me has dicho últimamente. Y no es que no te creyera antes ni creyera que mientes, pero es la primera vez que puedo decir que me siento en verdad amado. Por eso siento tanta culpa de no poder darte esa reciprocidad.",
+        "Tú eres una persona maravillosamente extraordinaria; brillas con una intensidad sorprendente, aun cuando estás desanimada. Tu sonrisa es hermosa. Odio ser el causante de tu llanto y dolor.",
+        "No hay una sola cosa en ti que me hiciese sentido del porqué no puedo corresponderte. Eres la relación más sana, bonita, cómoda y genial que he tenido, independientemente del poco tiempo que duró, que yo lo sentí como muchísimo tiempo.",
+        "En verdad no quisiera perderte, pero tampoco te quiero atar. Quiero que vivas, que crezcas, experimentes mucho más y te des tu lugar; sobre todo eso. No mereces más que alguien tan extraordinario como tú. Y si esa persona no existe, tú ya eres fantástica; no necesitas a nadie para brillar como ya lo haces."
       ],
-      signature: "Por todo lo que falta vivir,\n[Tu nombre]",
+      signature: "Te quiero, Emily\nAtt: Armando\n\nPosdata: Más fotitos esta vez. Espero no te moleste que las agregue aquí también.",
       memories: [
         { src: "assets/memories/letter-3-01.webp", alt: "Mujer sonriendo en un mariposario rodeado de vegetación." },
         { src: "assets/memories/letter-3-02.webp", alt: "Dibujo anatómico de un cráneo de animal en una exposición." },
@@ -71,6 +76,21 @@ window.SITE_CONTENT = {
         { src: "assets/memories/letter-3-08.webp", alt: "Mujer junto a una cascada mirando hacia abajo." },
         { src: "assets/memories/letter-3-09.webp", alt: "Pequeño tren decorativo bajo árboles frondosos." },
         { src: "assets/memories/letter-3-10.webp", alt: "Selfie de una pareja durante una visita a un parque." }
+      ]
+    },
+    {
+      number: "04",
+      title: "Gracias",
+      detail: "12/10/2026",
+      date: "12/10/2026",
+      greeting: "Emily:",
+      paragraphs: [
+        "Me dijiste que creías que te tengo lástima. Aunque no lo creas, me está siendo difícil soltarte también; te busco, sigo stalkeando tu perfil de vez en cuando. Te volviste una parte muy importante de mi vida. No es tan fácil como otras veces. No quiero alejarme de ti, aunque lo digo tanto, aunque digo que es por tu bien, aunque así sea. Tampoco te voy a pedir que te quedes más de lo necesario; en cuanto tú sientas que tienes que alejarte, solo dímelo. Cualquier cosa, solo dímelo. Sigo debiéndote mucho, y no por culpa esta vez, sino porque me diste tantos sentimientos bonitos, así que es lo mínimo que mereces.",
+        "Gracias por estar ahí.\nGracias por cocinar conmigo.\nGracias por cuidarme.\nGracias por cocinarme.\nGracias por leer conmigo.\nGracias por leer para mí.\nGracias por dejarme leer para ti.\nGracias por tus cartas.\nGracias por tus poemas.\nGracias por tus letras.\nGracias por tu presencia.\nGracias por escucharme.\nGracias por confiar en mí.\nGracias por la serpiente.\nGracias por los lugares a los que fuimos.\nGracias por las películas que vimos.\nGracias por dejarme compartir mis gustos contigo.\nGracias por compartir tus gustos conmigo.\nGracias por presentarme a tu familia.\nGracias por conocer a parte de la mía.\nGracias por tu risa.\nGracias por las sonrisas que me sacaste.\nGracias por tu paciencia.\nGracias por creer en mí.\nGracias por quererme.\nGracias por amarme."
+      ],
+      signature: "Y si puedes creerme aún, gracias. Te amo\nAtt: Armando\n\nPosdata: Ya no hay fotos. Pero mira a la serpiente:",
+      memories: [
+        { src: "assets/memories/letter-4-01.png", alt: "Figura de serpiente tejida de color rojo con grandes colmillos." }
       ]
     }
   ]

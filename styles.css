@@ -357,7 +357,7 @@ h1 {
 .paper h2 { max-width: 11ch; margin: 0 0 2rem; color: var(--ink); font: 400 clamp(2.3rem, 11vw, 3.8rem)/.94 var(--serif); letter-spacing: -.045em; }
 .paper-greeting { margin: 0 0 1.15rem; color: #243d36; font: italic 1.16rem var(--serif); }
 .paper-body { color: #3e4b45; font: 1.01rem/1.86 var(--serif); }
-.paper-body p { margin: 0 0 1.2rem; }
+.paper-body p { margin: 0 0 1.2rem; white-space: pre-line; }
 .paper-signature { margin: 2.1rem 0 0; white-space: pre-line; color: var(--ink); font: italic 1.1rem/1.6 var(--serif); }
 
 .primary-action {

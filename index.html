@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#123b38" />
+    <meta name="description" content="Una colección íntima de cartas y recuerdos." />
+    <title>Cartas para ti</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="ambient-grain" aria-hidden="true"></div>
+    <main id="page" class="page-shell">
+      <header class="hero">
+        <span class="eyebrow">Una pequeña colección</span>
+        <h1 id="site-title">Cartas para ti</h1>
+        <p id="site-subtitle" class="hero-copy">Hay recuerdos que merecen guardarse en palabras.</p>
+        <div class="instruction">
+          <span class="instruction-line" aria-hidden="true"></span>
+          <p id="site-instruction">Toca un sobre para abrirlo.</p>
+          <span class="instruction-line" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <section class="collection" aria-labelledby="collection-title">
+        <h2 id="collection-title" class="sr-only">Colección de cartas</h2>
+        <div id="letter-list" class="letter-list"></div>
+      </section>
+
+      <footer class="site-footer">
+        <span aria-hidden="true">✦</span>
+        <p>Hecho para volver a esos momentos.</p>
+      </footer>
+    </main>
+
+    <dialog id="letter-dialog" class="letter-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-frame">
+        <button id="close-dialog" class="icon-button close-button" type="button" aria-label="Cerrar carta">
+          <span aria-hidden="true">×</span>
+        </button>
+
+        <div id="opening-stage" class="opening-stage" aria-hidden="true">
+          <div class="opening-envelope">
+            <div class="opening-envelope-back"></div>
+            <div class="opening-envelope-paper"></div>
+            <div class="opening-envelope-front"></div>
+            <div class="opening-envelope-flap"></div>
+          </div>
+        </div>
+
+        <article id="letter-view" class="letter-view" tabindex="-1">
+          <div class="paper">
+            <header class="paper-header">
+              <p id="dialog-kicker" class="paper-kicker"></p>
+              <p id="dialog-date" class="paper-date"></p>
+            </header>
+            <div class="paper-rule" aria-hidden="true"></div>
+            <h2 id="dialog-title"></h2>
+            <p id="dialog-greeting" class="paper-greeting"></p>
+            <div id="dialog-body" class="paper-body"></div>
+            <p id="dialog-signature" class="paper-signature"></p>
+            <button id="show-gallery" class="primary-action" type="button">
+              <span>Ver nuestros recuerdos</span>
+              <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </article>
+
+        <section id="gallery-view" class="gallery-view" aria-labelledby="gallery-title" hidden>
+          <header class="gallery-header">
+            <button id="back-to-letter" class="text-button" type="button">
+              <span aria-hidden="true">←</span>
+              Volver a la carta
+            </button>
+            <p id="gallery-counter" class="gallery-counter" aria-live="polite"></p>
+          </header>
+          <h2 id="gallery-title" class="sr-only">Galería de recuerdos</h2>
+          <div id="gallery-stage" class="gallery-stage" tabindex="0" aria-roledescription="carrusel">
+            <figure class="memory-frame">
+              <img id="gallery-image" alt="" draggable="false" />
+              <figcaption id="gallery-caption"></figcaption>
+            </figure>
+          </div>
+          <div class="gallery-controls">
+            <button id="previous-memory" class="gallery-arrow" type="button" aria-label="Recuerdo anterior">←</button>
+            <div id="gallery-dots" class="gallery-dots" aria-label="Seleccionar recuerdo"></div>
+            <button id="next-memory" class="gallery-arrow" type="button" aria-label="Siguiente recuerdo">→</button>
+          </div>
+        </section>
+      </div>
+    </dialog>
+
+    <noscript>Necesitas activar JavaScript para abrir las cartas y recorrer sus recuerdos.</noscript>
+  </body>
+</html>
